@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 
     /* Input data for the XOR function. */
-    const double input[4][2] = {{0, 0}, {0, 1}, {1, 0}, {1, 1}};
+    const double input[4][2] = {{0, 0}, {0, 1}, {1, 1}, {4, 5}};
 
     /* Run the network and see what it predicts. */
     printf("Output for [%1.f, %1.f] is %1.f.\n", input[0][0], input[0][1], *genann_run(ann, input[0]));
